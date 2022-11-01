@@ -84,15 +84,18 @@ img {
 	color: var(--main-text-color);
 	/* Можна використати inherit */
 	padding: 24px 0 25px 0;
+	margin-right: 93px;
 }
-.navigation__list {
+/* .navigation__list {
 	margin-left: 93px;
 	margin-right: auto;
-}
+} */
 .navigation__item:not(:last-child) {
+	
 	margin-right: 50px;
 }
 .navigation__link {
+	display: inline-block;
 	color: var(--main-text-color); /* Можна використати inherit */
 	font-weight: 500;
 	font-size: 14px;
